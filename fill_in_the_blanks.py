@@ -27,7 +27,10 @@ def greeting(name):
 	"""Inputs: Player name"""
 	"""Outputs: Intro paragraph"""
 
-	print "\nHello, " + name + "! Welcome to Fill-in-the-Blanks, a game where you a presented with a paragraph and must choose appropriate replacement words. Please select a game difficulty by typing it in below."
+	print "\nHello, " + name + "! Welcome to Fill-in-the-Blanks, a game " \
+					"where you a presented with a paragraph and must choose " \
+					"appropriate replacement words. Please select a game " \
+					"difficulty by typing it in below."
 
 # DIFFICULTY
 def get_level(difficulty):
