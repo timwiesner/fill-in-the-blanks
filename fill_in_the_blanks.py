@@ -1,15 +1,33 @@
-# Welcome to Fill-in-the-Blanks, a game where the user is presented three difficulty levels and must choose appropriate replacement words for the selected paragraph. 
+# Welcome to Fill-in-the-Blanks, a game where the user is presented three difficulty levels and must 
+# choose appropriate replacement words for the selected paragraph. 
 
 
 # BLANKS FOR REPLACEMENT
 blanks = ['__1__', '__2__', '__3__', '__4__']
 
 # PARAGRAPHS FOR EASY, MEDIUM, AND HARD
-easy_paragraph = '''"Hypertext __1__ Language (HTML) is the standard markup language for creating __2__ pages and __2__ applications. With Cascading Style Sheets (CSS) and __3__ it forms a triad of cornerstone technologies for the World Wide Web.[1] Web __4__ receive HTML documents from a webserver or from local storage and render them into multimedia __2__ pages. HTML describes the structure of a __2__ page semantically and originally included cues for the appearance of the document." [Source: https://en.wikipedia.org/wiki/HTML]'''
+easy_paragraph = '''"Hypertext __1__ Language (HTML) is the standard markup language for creating __2__ pages 
+			and __2__ applications. With Cascading Style Sheets (CSS) and __3__ it forms a triad 
+			of cornerstone technologies for the World Wide Web.[1] Web __4__ receive HTML documents 
+			from a webserver or from local storage and render them into multimedia __2__ pages. HTML 
+			describes the structure of a __2__ page semantically and originally included cues for the 
+			appearance of the document." [Source: https://en.wikipedia.org/wiki/HTML]'''
 
-medium_paragraph = '''Admiral Grace __1__ is known as one of the pioneers of computing. She was famous for carrying around a __2__, a 30cm piece of wire which represents the distance light is able to travel in one nanosecond. __1__ felt that computer programs should be written in languages that resembled English. This led her to significant role in the development of __3__, a business programming language still in use today. She retired after 42 years of service in the United States __4__. [Source: https://en.wikipedia.org/wiki/Grace_Hopper]'''
+medium_paragraph = '''Admiral Grace __1__ is known as one of the pioneers of computing. She was famous for carrying 
+			around a __2__, a 30cm piece of wire which represents the distance light is able to travel in 
+			one nanosecond. __1__ felt that computer programs should be written in languages that resembled 
+			English. This led her to significant role in the development of __3__, a business programming 
+			language still in use today. She retired after 42 years of service in the United States __4__. 
+			[Source: https://en.wikipedia.org/wiki/Grace_Hopper]'''
 
-hard_paragraph = '''Python is an interpreted, __1__-oriented, high-level __2__ language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid __3__ Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and __4__, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed. [Source: https://www.python.org/doc/essays/blurb/]'''
+hard_paragraph = '''Python is an interpreted, __1__-oriented, high-level __2__ language with dynamic semantics. Its 
+			high-level built in data structures, combined with dynamic typing and dynamic binding, make it 
+			very attractive for Rapid __3__ Development, as well as for use as a scripting or glue language 
+			to connect existing components together. Python's simple, easy to learn syntax emphasizes readability 
+			and therefore reduces the cost of program maintenance. Python supports modules and __4__, which 
+			encourages program modularity and code reuse. The Python interpreter and the extensive standard 
+			library are available in source or binary form without charge for all major platforms, and can be 
+			freely distributed. [Source: https://www.python.org/doc/essays/blurb/]'''
 
 # REPLACEMENT WORDS FOR RESPECTIVE LEVELS
 easy_replacement = ['Markup', 'web', 'JavaScript', 'browsers']
