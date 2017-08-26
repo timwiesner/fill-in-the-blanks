@@ -1,8 +1,16 @@
 # Fill in the Blanks
 
-For this project, you'll be building a Fill-in-the-Blanks quiz.
-Your quiz will prompt a user with a paragraph containing several blanks.
-The user should then be asked to fill in each blank appropriately to complete the paragraph.
-This can be used as a study tool to help you remember important vocabulary!
+Welcome to Fill-in-the-Blanks, a game where the user is presented three difficulty levels and must choose appropriate replacement words for the selected paragraph. 
+
+The paragraph content for respective levels is as follows:
+* Easy - HTML
+* Medium - Grace Hopper
+* Hard - Python
+
+
+
 
 Note: This program must be run in Terminal or IDLE.
+
+
+Project - Code Your Own Quiz for Udacity's Intro to Programming Nanodegree
